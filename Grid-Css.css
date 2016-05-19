@@ -87,9 +87,6 @@ body {
     clear: both;
 }
 
-.hidden-sm {
-    display: none;
-}
 
 @media only screen and (min-width: 540px) {  /* 540px */
     .container {
@@ -144,10 +141,6 @@ body {
 
     .col-12 {
         width: 96%;
-    }
-
-    .hidden-sm {
-        display: block;
     }
 }
 
