@@ -96,5 +96,10 @@
 
 ```
 
+### Görünüm
+
+![Masaüstü](http://full/path/to/img.jpg "Masaüstü")
+![Mobil](http://full/path/to/img.jpg "Mobil")
+
 
 
