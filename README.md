@@ -98,8 +98,8 @@
 
 ### Görünüm
 
-![Masaüstü](http://full/path/to/img.jpg "Masaüstü")
-![Mobil](http://full/path/to/img.jpg "Mobil")
+![Masaüstü](https://raw.githubusercontent.com/muhammedzaimtr/Grid-Css/master/goruntu/1.png "Masaüstü")
+![Mobil](https://raw.githubusercontent.com/muhammedzaimtr/Grid-Css/master/goruntu/2.png "Mobil")
 
 
 
