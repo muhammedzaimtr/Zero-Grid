@@ -1,5 +1,15 @@
 # Grid-Css
 
+## Install
+
+```html
+
+<link rel="stylesheet" type="text/css" href="http://cdn.muhammedzaim.com/ZeroGrid/v1/Zero-Grid.css">
+
+<link rel="stylesheet" type="text/css" href="http://cdn.muhammedzaim.com/ZeroGrid/v1/Zero-Grid.min.css">
+
+```
+
 ##Demo   
 http://zerogrid.cf   
 http://muhammedzaimtr.github.io/Zero-Grid
