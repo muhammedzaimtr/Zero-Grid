@@ -17,6 +17,11 @@ body {
     margin: 0 auto;
 }
 
+full{
+	width: 100%;
+    margin: 0 auto;
+}
+
 .row {
     position: relative;
     width: 100%;
