@@ -2,12 +2,309 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-        <title>Zero Grid by Muhammed Zaim</title>
-    <link rel="stylesheet" href="zero-grid.css">
+    <title>Zero Grid by Muhammed Zaim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="zerogrid.css">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-56284082-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
+
+
+<header>
+    <div class="full menu">
+        <div class="logo">
+            Zero Grid
+        </div>
+        <div class="yuk">
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/muhammedzaimtr" data-style="mega" data-count-href="/muhammedzaimtr/followers" data-count-api="/users/muhammedzaimtr#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @muhammedzaimtr on GitHub">Follow @muhammedzaimtr</a>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/muhammedzaimtr/Zero-Grid" data-icon="octicon-star" data-style="mega" data-count-href="/muhammedzaimtr/Zero-Grid/stargazers" data-count-api="/repos/muhammedzaimtr/Zero-Grid#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star muhammedzaimtr/Zero-Grid on GitHub">Star</a>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/muhammedzaimtr/Zero-Grid/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/muhammedzaimtr/Zero-Grid/network" data-count-api="/repos/muhammedzaimtr/Zero-Grid#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork muhammedzaimtr/Zero-Grid on GitHub">Fork</a>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/muhammedzaimtr/Zero-Grid/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/muhammedzaimtr/Zero-Grid#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue muhammedzaimtr/Zero-Grid on GitHub">Issue</a>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/muhammedzaimtr/Zero-Grid/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download muhammedzaimtr/Zero-Grid on GitHub">Download</a>
+
+        </div>
+
+    </div>
+</header>
+
+<section>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Container - Bir Eşit Kolon
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Container - Üç Eşit Kolon
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    .col-4
+                </div>
+                <div class="col-4">
+                    .col-4
+                </div>
+                <div class="col-4">
+                    .col-4
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Container - Üç Eşit Olmayan Kolon
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    .col-3
+                </div>
+                <div class="col-6">
+                    .col-6
+                </div>
+                <div class="col-3">
+                    .col-3
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Container - İki Eşit Kolon
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    .col-6
+                </div>
+                <div class="col-6">
+                    .col-6
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Container - İki Eşit Kolon İçinde İki Eşit Kolon
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    .col-6<br><br>
+                    <div class="col-6" style="border-bottom: 1px solid #535353; border-top: 1px solid #535353;">
+                        .col-6
+                    </div>
+                    <div class="col-6" style="border-bottom: 1px solid #535353; border-top: 1px solid #535353;">
+                        .col-6
+                    </div>
+                </div>
+                <div class="col-6">
+                    .col-6
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="kapsa">
+        <div class="baslik">
+            Full - Bir Eşit Kolon
+        </div>
+        <div class="full">
+            <div class="row">
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-1">
+                    .col-1
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Full - Üç Eşit Kolon
+        </div>
+        <div class="Full">
+            <div class="row">
+                <div class="col-4">
+                    .col-4
+                </div>
+                <div class="col-4">
+                    .col-4
+                </div>
+                <div class="col-4">
+                    .col-4
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Full - Üç Eşit Olmayan Kolon
+        </div>
+        <div class="Full">
+            <div class="row">
+                <div class="col-3">
+                    .col-3
+                </div>
+                <div class="col-6">
+                    .col-6
+                </div>
+                <div class="col-3">
+                    .col-3
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Full - İki Eşit Kolon
+        </div>
+        <div class="Full">
+            <div class="row">
+                <div class="col-6">
+                    .col-6
+                </div>
+                <div class="col-6">
+                    .col-6
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Full - İki Eşit Kolon İçinde İki Eşit Kolon
+        </div>
+        <div class="Full">
+            <div class="row">
+                <div class="col-6">
+                    .col-6<br><br>
+                    <div class="col-6" style="border-bottom: 1px solid #535353; border-top: 1px solid #535353;">
+                        .col-6
+                    </div>
+                    <div class="col-6" style="border-bottom: 1px solid #535353; border-top: 1px solid #535353;">
+                        .col-6
+                    </div>
+                </div>
+                <div class="col-6">
+                    .col-6
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="kapsa">
+    <div class="baslik">
+        Container Grid
+    </div>
     <div class="container">
-        <center><h1>Standart Grid</h1></center>
         <div class="row">
             <div class="col-12">
                 .col-12
@@ -96,281 +393,328 @@
         </div>
 
     </div>
+</div>
 
-    <div class="full">
-        <center><h1>Full Grid</h1></center>
-        <div class="row">
-            <div class="col-12">
-                .col-12
-            </div>
+
+    <div class="kapsa">
+        <div class="baslik">
+            Ufak Container Grid
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12-sm">
+                    .col-12-sm
+                </div>
+            </div>
 
-        <div class="row">
-            <div class="col-1">
-                .col-1
+            <div class="row">
+                <div class="col-1-sm">
+                    .col-1-sm
+                </div>
+                <div class="col-11-sm">
+                    .col-11-sm
+                </div>
             </div>
-            <div class="col-11">
-                .col-11
+
+            <div class="row">
+                <div class="col-2-sm">
+                    .col-2-sm
+                </div>
+                <div class="col-10-sm">
+                    .col-10-sm
+                </div>
             </div>
+
+            <div class="row">
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+                <div class="col-9-sm">
+                    .col-9-sm
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4-sm">
+                    .col-4-sm
+                </div>
+                <div class="col-8-sm">
+                    .col-8-sm
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-5-sm">
+                    .col-5-sm
+                </div>
+                <div class="col-7-sm">
+                    .col-7-sm
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6-sm">
+                    .col-6-sm
+                </div>
+                <div class="col-6-sm">
+                    .col-6-sm
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4-sm">
+                    .col-4-sm
+                </div>
+                <div class="col-4-sm">
+                    .col-4-sm
+                </div>
+                <div class="col-4-sm">
+                    .col-4-sm
+                </div>
+            </div>
+
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-2">
-                .col-2
+    <div class="kapsa">
+        <div class="full">
+            <div class="baslik">
+                Full Grid
             </div>
-            <div class="col-10">
-                .col-10
+            <div class="row">
+                <div class="col-12">
+                    .col-12
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-3">
-                .col-3
+            <div class="row">
+                <div class="col-1">
+                    .col-1
+                </div>
+                <div class="col-11">
+                    .col-11
+                </div>
             </div>
-            <div class="col-9">
-                .col-9
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-4">
-                .col-4
+            <div class="row">
+                <div class="col-2">
+                    .col-2
+                </div>
+                <div class="col-10">
+                    .col-10
+                </div>
             </div>
-            <div class="col-8">
-                .col-8
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-5">
-                .col-5
+            <div class="row">
+                <div class="col-3">
+                    .col-3
+                </div>
+                <div class="col-9">
+                    .col-9
+                </div>
             </div>
-            <div class="col-7">
-                .col-7
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-6">
-                .col-6
+            <div class="row">
+                <div class="col-4">
+                    .col-4
+                </div>
+                <div class="col-8">
+                    .col-8
+                </div>
             </div>
-            <div class="col-6">
-                .col-6
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-3">
-                .col-3
+            <div class="row">
+                <div class="col-5">
+                    .col-5
+                </div>
+                <div class="col-7">
+                    .col-7
+                </div>
             </div>
-            <div class="col-3">
-                .col-3
-            </div>
-            <div class="col-3">
-                .col-3
-            </div>
-            <div class="col-3">
-                .col-3
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-4">
-                .col-4
+            <div class="row">
+                <div class="col-6">
+                    .col-6
+                </div>
+                <div class="col-6">
+                    .col-6
+                </div>
             </div>
-            <div class="col-4">
-                .col-4
+
+            <div class="row">
+                <div class="col-3">
+                    .col-3
+                </div>
+                <div class="col-3">
+                    .col-3
+                </div>
+                <div class="col-3">
+                    .col-3
+                </div>
+                <div class="col-3">
+                    .col-3
+                </div>
             </div>
-            <div class="col-4">
-                .col-4
+
+            <div class="row">
+                <div class="col-4">
+                    .col-4
+                </div>
+                <div class="col-4">
+                    .col-4
+                </div>
+                <div class="col-4">
+                    .col-4
+                </div>
             </div>
         </div>
     </div>
 
 
+    <div class="kapsa">
+        <div class="full">
+            <div class="baslik">
+                Ufak Full Grid
+            </div>
+            <div class="row">
+                <div class="col-12-sm">
+                    .col-12-sm
+                </div>
+            </div>
 
-    <div class="container">
-        <center><h1>Ufak Standart Grid</h1></center>
-        <div class="row">
-            <div class="col-12-sm">
-                .col-12-sm
+            <div class="row">
+                <div class="col-1-sm">
+                    .col-1-sm
+                </div>
+                <div class="col-11-sm">
+                    .col-11-sm
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-1-sm">
-                .col-1-sm
+            <div class="row">
+                <div class="col-2-sm">
+                    .col-2-sm
+                </div>
+                <div class="col-10-sm">
+                    .col-10-sm
+                </div>
             </div>
-            <div class="col-11-sm">
-                .col-11-sm
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-2-sm">
-                .col-2-sm
+            <div class="row">
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+                <div class="col-9-sm">
+                    .col-9-sm
+                </div>
             </div>
-            <div class="col-10-sm">
-                .col-10-sm
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-3-sm">
-                .col-3-sm
+            <div class="row">
+                <div class="col-4-sm">
+                    .col-4-sm
+                </div>
+                <div class="col-8-sm">
+                    .col-8-sm
+                </div>
             </div>
-            <div class="col-9-sm">
-                .col-9-sm
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-4-sm">
-                .col-4-sm
+            <div class="row">
+                <div class="col-5-sm">
+                    .col-5-sm
+                </div>
+                <div class="col-7-sm">
+                    .col-7-sm
+                </div>
             </div>
-            <div class="col-8-sm">
-                .col-8-sm
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-5-sm">
-                .col-5-sm
+            <div class="row">
+                <div class="col-6-sm">
+                    .col-6-sm
+                </div>
+                <div class="col-6-sm">
+                    .col-6-sm
+                </div>
             </div>
-            <div class="col-7-sm">
-                .col-7-sm
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-6-sm">
-                .col-6-sm
+            <div class="row">
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
+                <div class="col-3-sm">
+                    .col-3-sm
+                </div>
             </div>
-            <div class="col-6-sm">
-                .col-6-sm
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4-sm">
-                .col-4-sm
-            </div>
-            <div class="col-4-sm">
-                .col-4-sm
-            </div>
-            <div class="col-4-sm">
-                .col-4-sm
-            </div>
-        </div>
-
-    </div>
-
-    <div class="full">
-        <center><h1>Ufak Full Grid</h1></center>
-        <div class="row">
-            <div class="col-12-sm">
-                .col-12-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-1-sm">
-                .col-1-sm
-            </div>
-            <div class="col-11-sm">
-                .col-11-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-2-sm">
-                .col-2-sm
-            </div>
-            <div class="col-10-sm">
-                .col-10-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-            <div class="col-9-sm">
-                .col-9-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4-sm">
-                .col-4-sm
-            </div>
-            <div class="col-8-sm">
-                .col-8-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-5-sm">
-                .col-5-sm
-            </div>
-            <div class="col-7-sm">
-                .col-7-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-6-sm">
-                .col-6-sm
-            </div>
-            <div class="col-6-sm">
-                .col-6-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-            <div class="col-3-sm">
-                .col-3-sm
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4-sm">
-                .col-4-sm
-            </div>
-            <div class="col-4-sm">
-                .col-4-sm
-            </div>
-            <div class="col-4-sm">
-                .col-4-sm
+            <div class="row">
+                <div class="col-4-sm">
+                    .col-4-sm
+                </div>
+                <div class="col-4-sm">
+                    .col-4-sm
+                </div>
+                <div class="col-4-sm">
+                    .col-4-sm
+                </div>
             </div>
         </div>
     </div>
 
-    <a href="https://github.com/muhammedzaimtr/Zero-Grid"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</section>
+
+
+<footer>
+    <div class="web">
+        <div class="baslik">
+            Zero Grid Kullanılan Web Siteler
+        </div>
+        <div class="container">
+            <div class="row">
+                <ul>
+                    <li><a href="http://muhammedzaim.com">Muhammed Zaim Web Site</a></li>
+                    <li><a href="https://github.com/muhammedzaimtr/Mini-Blog-Home-Page">Mini Blog Home Page </a></li>
+                    <li><a href="https://github.com/muhammedzaimtr/Alarm-Clock-App">Alarm Clock App</a></li>
+                    <li><a href="https://github.com/muhammedzaimtr/Weather-App">Weather App</a></li>
+                    <li><a href="https://github.com/muhammedzaimtr/4-Card-Responsive">4 Card Responsive</a></li>
+                    <li><a href="http://demo.muhammedzaim.com/Vucut-Kitle-Endeksi/">Vücut Kitle Endeksi Hesaplama</a></li>
+                    <li><a href="http://demo.muhammedzaim.com/portfolyo/">Portfolyo :D </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://github.com/muhammedzaimtr/Zero-Grid"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 
 </body>
 </html>
