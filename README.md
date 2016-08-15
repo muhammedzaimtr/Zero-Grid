@@ -69,6 +69,6 @@ http://muhammedzaimtr.github.io/Zero-Grid
 
 ### Görünüm
 
-![Masaüstü](https://raw.githubusercontent.com/muhammedzaimtr/Grid-Css/master/goruntu/1.png "Masaüstü")
+![Masaüstü](https://raw.githubusercontent.com/muhammedzaimtr/Zero-Grid/master/goruntu/ss1234.png "Masaüstü")
 
 
