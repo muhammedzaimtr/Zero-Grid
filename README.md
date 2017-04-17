@@ -14,8 +14,7 @@
 ```
 
 ##Demo   
-http://zerogrid.cf   
-http://muhammedzaimtr.github.io/Zero-Grid
+https://muhammedzaim.com/zerogrid.cf/ 
 
 ### Standart Grid
 ```html
