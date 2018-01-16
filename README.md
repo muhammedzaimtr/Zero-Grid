@@ -7,14 +7,14 @@
 
 ```html
 
-<link rel="stylesheet" type="text/css" href="http://cdn.muhammedzaim.com/ZeroGrid/v1/Zero-Grid.css">
+<link rel="stylesheet" type="text/css" href="zerogrid.css">
 
-<link rel="stylesheet" type="text/css" href="http://cdn.muhammedzaim.com/ZeroGrid/v1/Zero-Grid.min.css">
 
 ```
 
 ##Demo   
-https://muhammedzaim.com/zerogrid.cf/ 
+https://muhammedzaim.com/
+https://necalistim.com/
 
 ### Standart Grid
 ```html
